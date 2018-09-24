@@ -1,5 +1,6 @@
+from time import sleep
 dice_sum = 0
-missiles = 0
+
 spell_lv = int(input("Enter Spell level: "))
 
 missiles = spell_lv + 2 # first level of magic missile have 3 missiles (2 additional)
@@ -50,4 +51,5 @@ else:
 
 
 
-print(f"Total damage is: {total_damage}")
+print("Total damage is: {}".format(total_damage))
+sleep(5)
